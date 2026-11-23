@@ -121,13 +121,43 @@
   <data name="Hotel bedroom" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Hotel bedroom.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="rm218batch4-ning-241" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rm218batch4-ning-241.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="check_out1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\check_out1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="rm218batch4-ning-24" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\rm218batch4-ning-24.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="room_management" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\room_management.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="hide-eyes" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\hide-eyes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="reports" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\reports.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="user_management" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user_management.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="guest_records" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\guest_records.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="923704584_2239920516919933_2714895710984519178_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\923704584_2239920516919933_2714895710984519178_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="rate_management" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\rate_management.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="check_out" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\check_out.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="check_in" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\check_in.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="923704584_2239920516919933_2714895710984519178_n1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\923704584_2239920516919933_2714895710984519178_n1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="new_reservation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\new_reservation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="search_reservations" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\search_reservations.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="billing" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\billing.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -63,9 +63,69 @@ namespace Hotel_Reservation_and_Management_System.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap hide_eyes {
+        internal static System.Drawing.Bitmap _923704584_2239920516919933_2714895710984519178_n {
             get {
-                object obj = ResourceManager.GetObject("hide-eyes", resourceCulture);
+                object obj = ResourceManager.GetObject("923704584_2239920516919933_2714895710984519178_n", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _923704584_2239920516919933_2714895710984519178_n1 {
+            get {
+                object obj = ResourceManager.GetObject("923704584_2239920516919933_2714895710984519178_n1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap billing {
+            get {
+                object obj = ResourceManager.GetObject("billing", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap check_in {
+            get {
+                object obj = ResourceManager.GetObject("check_in", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap check_out {
+            get {
+                object obj = ResourceManager.GetObject("check_out", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap check_out1 {
+            get {
+                object obj = ResourceManager.GetObject("check_out1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap guest_records {
+            get {
+                object obj = ResourceManager.GetObject("guest_records", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +143,9 @@ namespace Hotel_Reservation_and_Management_System.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap rm218batch4_ning_24 {
+        internal static System.Drawing.Bitmap new_reservation {
             get {
-                object obj = ResourceManager.GetObject("rm218batch4-ning-24", resourceCulture);
+                object obj = ResourceManager.GetObject("new_reservation", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -93,9 +153,49 @@ namespace Hotel_Reservation_and_Management_System.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap rm218batch4_ning_241 {
+        internal static System.Drawing.Bitmap rate_management {
             get {
-                object obj = ResourceManager.GetObject("rm218batch4-ning-241", resourceCulture);
+                object obj = ResourceManager.GetObject("rate_management", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap reports {
+            get {
+                object obj = ResourceManager.GetObject("reports", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap room_management {
+            get {
+                object obj = ResourceManager.GetObject("room_management", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap search_reservations {
+            get {
+                object obj = ResourceManager.GetObject("search_reservations", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap user_management {
+            get {
+                object obj = ResourceManager.GetObject("user_management", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
