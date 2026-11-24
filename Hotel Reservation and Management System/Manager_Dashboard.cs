@@ -41,5 +41,17 @@ namespace Hotel_Reservation_and_Management_System
         {
 
         }
+
+        private void btnRoomManagement_Click(object sender, EventArgs e)
+        {
+            var roomForm = new RoomManagement();
+            roomForm.ShowDialog();
+        }
+
+        private void btnUserManagement_Click(object sender, EventArgs e)
+        {
+            var userForm = new UserManagement();
+            userForm.ShowDialog();
+        }
     }
 }

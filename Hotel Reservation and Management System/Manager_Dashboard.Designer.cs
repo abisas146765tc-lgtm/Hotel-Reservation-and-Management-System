@@ -347,6 +347,7 @@
             btnUserManagement.Text = "User Management";
             btnUserManagement.TextImageRelation = TextImageRelation.ImageAboveText;
             btnUserManagement.UseVisualStyleBackColor = false;
+            btnUserManagement.Click += btnUserManagement_Click;
             // 
             // btnRoomManagement
             // 
@@ -366,6 +367,7 @@
             btnRoomManagement.Text = "Room Management";
             btnRoomManagement.TextImageRelation = TextImageRelation.ImageAboveText;
             btnRoomManagement.UseVisualStyleBackColor = false;
+            btnRoomManagement.Click += btnRoomManagement_Click;
             // 
             // label2
             // 
