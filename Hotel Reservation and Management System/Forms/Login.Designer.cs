@@ -31,9 +31,6 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmLogin));
             label1 = new Label();
             lblTagline = new Label();
-            lblHome = new Label();
-            lblRooms = new Label();
-            lblLogin = new Label();
             pnlTitle = new Panel();
             btnLogin = new Button();
             pnlRoleBox = new Panel();
@@ -56,12 +53,13 @@
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Microsoft Sans Serif", 22F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label1.ForeColor = Color.White;
-            label1.Location = new Point(22, 15);
+            label1.Location = new Point(268, 9);
             label1.Margin = new Padding(2, 0, 2, 0);
             label1.Name = "label1";
             label1.Size = new Size(149, 36);
             label1.TabIndex = 0;
             label1.Text = "StaySync";
+            label1.TextAlign = ContentAlignment.TopCenter;
             label1.Click += label1_Click;
             // 
             // lblTagline
@@ -70,63 +68,15 @@
             lblTagline.BackColor = Color.Transparent;
             lblTagline.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
             lblTagline.ForeColor = Color.White;
-            lblTagline.Location = new Point(22, 47);
+            lblTagline.Location = new Point(168, 51);
             lblTagline.Margin = new Padding(2, 0, 2, 0);
             lblTagline.Name = "lblTagline";
             lblTagline.RightToLeft = RightToLeft.Yes;
             lblTagline.Size = new Size(349, 20);
             lblTagline.TabIndex = 1;
             lblTagline.Text = "Seamless reservations, smarter hotel operations";
-            // 
-            // lblHome
-            // 
-            lblHome.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            lblHome.AutoSize = true;
-            lblHome.BackColor = Color.Transparent;
-            lblHome.Cursor = Cursors.Hand;
-            lblHome.Font = new Font("Microsoft Sans Serif", 10F, FontStyle.Bold);
-            lblHome.ForeColor = Color.White;
-            lblHome.Location = new Point(446, 50);
-            lblHome.Margin = new Padding(2, 0, 2, 0);
-            lblHome.Name = "lblHome";
-            lblHome.Size = new Size(53, 17);
-            lblHome.TabIndex = 3;
-            lblHome.Text = "HOME";
-            lblHome.MouseEnter += lblHome_MouseEnter;
-            lblHome.MouseLeave += lblHome_MouseLeave;
-            // 
-            // lblRooms
-            // 
-            lblRooms.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            lblRooms.AutoSize = true;
-            lblRooms.BackColor = Color.Transparent;
-            lblRooms.Font = new Font("Microsoft Sans Serif", 10F, FontStyle.Bold);
-            lblRooms.ForeColor = Color.White;
-            lblRooms.Location = new Point(511, 50);
-            lblRooms.Margin = new Padding(2, 0, 2, 0);
-            lblRooms.Name = "lblRooms";
-            lblRooms.Size = new Size(65, 17);
-            lblRooms.TabIndex = 4;
-            lblRooms.Text = "ROOMS";
-            lblRooms.MouseEnter += lblHome_MouseEnter;
-            lblRooms.MouseLeave += lblHome_MouseLeave;
-            // 
-            // lblLogin
-            // 
-            lblLogin.Anchor = AnchorStyles.Top | AnchorStyles.Right;
-            lblLogin.AutoSize = true;
-            lblLogin.BackColor = Color.Transparent;
-            lblLogin.Font = new Font("Microsoft Sans Serif", 10F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            lblLogin.ForeColor = Color.White;
-            lblLogin.Location = new Point(581, 50);
-            lblLogin.Margin = new Padding(2, 0, 2, 0);
-            lblLogin.Name = "lblLogin";
-            lblLogin.Size = new Size(56, 17);
-            lblLogin.TabIndex = 5;
-            lblLogin.Text = "LOGIN";
-            lblLogin.Click += lblLogin_Click;
-            lblLogin.MouseEnter += lblHome_MouseEnter;
-            lblLogin.MouseLeave += lblHome_MouseLeave;
+            lblTagline.TextAlign = ContentAlignment.TopCenter;
+            lblTagline.Click += lblTagline_Click;
             // 
             // pnlTitle
             // 
@@ -138,7 +88,7 @@
             pnlTitle.Controls.Add(pnlUsername);
             pnlTitle.Controls.Add(lblLoginInpnl);
             pnlTitle.Location = new Point(181, 83);
-            pnlTitle.Margin = new Padding(2, 2, 2, 2);
+            pnlTitle.Margin = new Padding(2);
             pnlTitle.Name = "pnlTitle";
             pnlTitle.Size = new Size(323, 301);
             pnlTitle.TabIndex = 6;
@@ -152,12 +102,13 @@
             btnLogin.Font = new Font("Microsoft Sans Serif", 11F);
             btnLogin.ForeColor = SystemColors.ButtonFace;
             btnLogin.Location = new Point(52, 198);
-            btnLogin.Margin = new Padding(2, 2, 2, 2);
+            btnLogin.Margin = new Padding(2);
             btnLogin.Name = "btnLogin";
             btnLogin.Size = new Size(209, 33);
             btnLogin.TabIndex = 3;
             btnLogin.Text = "Login";
             btnLogin.UseVisualStyleBackColor = false;
+            btnLogin.Click += btnLogin_Click;
             // 
             // pnlRoleBox
             // 
@@ -166,7 +117,7 @@
             pnlRoleBox.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             pnlRoleBox.ForeColor = SystemColors.GrayText;
             pnlRoleBox.Location = new Point(52, 139);
-            pnlRoleBox.Margin = new Padding(2, 2, 2, 2);
+            pnlRoleBox.Margin = new Padding(2);
             pnlRoleBox.Name = "pnlRoleBox";
             pnlRoleBox.Size = new Size(210, 37);
             pnlRoleBox.TabIndex = 1;
@@ -179,7 +130,7 @@
             cmbRole.FormattingEnabled = true;
             cmbRole.Items.AddRange(new object[] { "Super Admin", "Receptionist" });
             cmbRole.Location = new Point(3, 9);
-            cmbRole.Margin = new Padding(2, 2, 2, 2);
+            cmbRole.Margin = new Padding(2);
             cmbRole.Name = "cmbRole";
             cmbRole.Size = new Size(206, 23);
             cmbRole.TabIndex = 0;
@@ -194,7 +145,7 @@
             pnlPassword.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             pnlPassword.ForeColor = SystemColors.GrayText;
             pnlPassword.Location = new Point(52, 98);
-            pnlPassword.Margin = new Padding(2, 2, 2, 2);
+            pnlPassword.Margin = new Padding(2);
             pnlPassword.Name = "pnlPassword";
             pnlPassword.Size = new Size(210, 37);
             pnlPassword.TabIndex = 2;
@@ -216,12 +167,13 @@
             // txtPassword
             // 
             txtPassword.Location = new Point(2, 11);
-            txtPassword.Margin = new Padding(2, 2, 2, 2);
+            txtPassword.Margin = new Padding(2);
             txtPassword.Name = "txtPassword";
             txtPassword.PlaceholderText = "Enter Password";
             txtPassword.Size = new Size(207, 21);
             txtPassword.TabIndex = 0;
             txtPassword.TabStop = false;
+            txtPassword.UseSystemPasswordChar = true;
             txtPassword.Enter += txtPassword_Enter;
             txtPassword.Leave += txtPassword_Leave;
             // 
@@ -232,7 +184,7 @@
             pnlUsername.Font = new Font("Microsoft Sans Serif", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             pnlUsername.ForeColor = SystemColors.GrayText;
             pnlUsername.Location = new Point(52, 58);
-            pnlUsername.Margin = new Padding(2, 2, 2, 2);
+            pnlUsername.Margin = new Padding(2);
             pnlUsername.Name = "pnlUsername";
             pnlUsername.Size = new Size(210, 37);
             pnlUsername.TabIndex = 1;
@@ -241,7 +193,7 @@
             // 
             txtUsername.ForeColor = SystemColors.WindowText;
             txtUsername.Location = new Point(2, 9);
-            txtUsername.Margin = new Padding(2, 2, 2, 2);
+            txtUsername.Margin = new Padding(2);
             txtUsername.Name = "txtUsername";
             txtUsername.PlaceholderText = "Enter Username";
             txtUsername.Size = new Size(207, 21);
@@ -268,16 +220,14 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            AutoSize = true;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(685, 386);
             Controls.Add(pnlTitle);
-            Controls.Add(lblLogin);
-            Controls.Add(lblRooms);
-            Controls.Add(lblHome);
             Controls.Add(lblTagline);
             Controls.Add(label1);
-            Margin = new Padding(2, 2, 2, 2);
+            Margin = new Padding(2);
             MaximumSize = new Size(705, 436);
             Name = "frmLogin";
             StartPosition = FormStartPosition.CenterScreen;
@@ -300,9 +250,6 @@
 
         private Label label1;
         private Label lblTagline;
-        private Label lblHome;
-        private Label lblRooms;
-        private Label lblLogin;
         private Panel pnlTitle;
         private Label lblLoginpnl;
         private Label lblLoginInpnl;
@@ -312,7 +259,7 @@
         private TextBox txtPassword;
         private Label lblEye;
         private Panel pnlRoleBox;
-        private ComboBox cmbRole;
         private Button btnLogin;
+        private ComboBox cmbRole;
     }
 }

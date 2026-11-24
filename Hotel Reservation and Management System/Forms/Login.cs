@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Drawing.Drawing2D;
+using Hotel_Reservation_and_Management_System.Data;
 
 namespace Hotel_Reservation_and_Management_System
 {
@@ -121,6 +122,43 @@ namespace Hotel_Reservation_and_Management_System
         private void frmLogin_Load(object sender, EventArgs e)
         {
 
+        }
+
+        private void lblTagline_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            string username = txtUsername.Text.Trim();
+            string password = txtPassword.Text;
+
+            if (username == "" || password == "")
+            {
+                MessageBox.Show("Please enter both username and password.", "Login Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+            try
+            {
+                var user = UserRepository.Authenticate(username, password);
+
+                if (user == null)
+                {
+                    MessageBox.Show("Invalid username or password.");
+                    txtPassword.Clear();
+                    txtPassword.Focus();
+                    return;
+                }
+                Form next = user.Role == "Manager" ? new Manager_Dashboard() : new Receptionist_Dashboard();
+                next.FormClosed += (s, args) => Application.Exit();
+                next.Show();
+                this.Hide();
+            }
+            catch (Microsoft.Data.SqlClient.SqlException)
+            {
+                MessageBox.Show("Cannot connect to the database.");
+            }
         }
     }
 }
