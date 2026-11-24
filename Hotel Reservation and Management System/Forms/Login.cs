@@ -117,5 +117,10 @@ namespace Hotel_Reservation_and_Management_System
         {
             this.BeginInvoke(new Action(() => { this.ActiveControl = null; }));
         }
+
+        private void frmLogin_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
