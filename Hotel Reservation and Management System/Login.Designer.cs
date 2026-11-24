@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmLogin));
-            label1 = new Label();
+            lblNameLogin = new Label();
             lblTagline = new Label();
             lblHome = new Label();
             lblRooms = new Label();
@@ -50,18 +50,18 @@
             pnlUsername.SuspendLayout();
             SuspendLayout();
             // 
-            // label1
+            // lblNameLogin
             // 
-            label1.AutoSize = true;
-            label1.BackColor = Color.Transparent;
-            label1.Font = new Font("Showcard Gothic", 22F, FontStyle.Bold, GraphicsUnit.Point, 0);
-            label1.ForeColor = Color.White;
-            label1.Location = new Point(31, 25);
-            label1.Name = "label1";
-            label1.Size = new Size(248, 54);
-            label1.TabIndex = 0;
-            label1.Text = "StaySync";
-            label1.Click += label1_Click;
+            lblNameLogin.AutoSize = true;
+            lblNameLogin.BackColor = Color.Transparent;
+            lblNameLogin.Font = new Font("Showcard Gothic", 22F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            lblNameLogin.ForeColor = Color.White;
+            lblNameLogin.Location = new Point(31, 25);
+            lblNameLogin.Name = "lblNameLogin";
+            lblNameLogin.Size = new Size(248, 54);
+            lblNameLogin.TabIndex = 0;
+            lblNameLogin.Text = "StaySync";
+            lblNameLogin.Click += label1_Click;
             // 
             // lblTagline
             // 
@@ -126,12 +126,12 @@
             // pnlTitle
             // 
             pnlTitle.Anchor = AnchorStyles.None;
-            pnlTitle.BorderStyle = BorderStyle.FixedSingle;
             pnlTitle.Controls.Add(btnLogin);
             pnlTitle.Controls.Add(pnlRoleBox);
             pnlTitle.Controls.Add(pnlPassword);
             pnlTitle.Controls.Add(pnlUsername);
             pnlTitle.Controls.Add(lblLoginInpnl);
+            pnlTitle.Cursor = Cursors.Hand;
             pnlTitle.Location = new Point(259, 139);
             pnlTitle.Name = "pnlTitle";
             pnlTitle.Size = new Size(460, 500);
@@ -243,7 +243,7 @@
             lblLoginInpnl.BackColor = Color.Transparent;
             lblLoginInpnl.Font = new Font("Showcard Gothic", 12F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblLoginInpnl.ForeColor = SystemColors.Control;
-            lblLoginInpnl.Location = new Point(186, 27);
+            lblLoginInpnl.Location = new Point(187, 28);
             lblLoginInpnl.Name = "lblLoginInpnl";
             lblLoginInpnl.Size = new Size(87, 30);
             lblLoginInpnl.TabIndex = 0;
@@ -261,11 +261,12 @@
             Controls.Add(lblRooms);
             Controls.Add(lblHome);
             Controls.Add(lblTagline);
-            Controls.Add(label1);
+            Controls.Add(lblNameLogin);
             MaximumSize = new Size(1000, 700);
             Name = "frmLogin";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Login";
+            WindowState = FormWindowState.Maximized;
             Shown += frmLogin_Shown;
             Resize += frmLogin_Resize;
             pnlTitle.ResumeLayout(false);
@@ -281,7 +282,7 @@
 
         #endregion
 
-        private Label label1;
+        private Label lblNameLogin;
         private Label lblTagline;
         private Label lblHome;
         private Label lblRooms;

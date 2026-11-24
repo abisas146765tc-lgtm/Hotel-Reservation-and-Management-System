@@ -83,6 +83,16 @@ namespace Hotel_Reservation_and_Management_System.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap artistic_blurry_colorful_wallpaper_background {
+            get {
+                object obj = ResourceManager.GetObject("artistic-blurry-colorful-wallpaper-background", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap billing {
             get {
                 object obj = ResourceManager.GetObject("billing", resourceCulture);
