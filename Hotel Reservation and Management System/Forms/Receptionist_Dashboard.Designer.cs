@@ -68,6 +68,7 @@
             btnNewReservation.TabIndex = 2;
             btnNewReservation.Text = "New Reservation";
             btnNewReservation.UseVisualStyleBackColor = true;
+            btnNewReservation.Click += btnNewReservation_Click;
             // 
             // btnCheckIn
             // 
@@ -78,6 +79,7 @@
             btnCheckIn.TabIndex = 3;
             btnCheckIn.Text = "Check-In";
             btnCheckIn.UseVisualStyleBackColor = true;
+            btnCheckIn.Click += btnCheckIn_Click;
             // 
             // btnCheckOut
             // 
@@ -88,6 +90,7 @@
             btnCheckOut.TabIndex = 4;
             btnCheckOut.Text = "Check-Out";
             btnCheckOut.UseVisualStyleBackColor = true;
+            btnCheckOut.Click += btnCheckOut_Click;
             // 
             // btnManageReservation
             // 
@@ -98,6 +101,7 @@
             btnManageReservation.TabIndex = 5;
             btnManageReservation.Text = "Search/Manage Reservation";
             btnManageReservation.UseVisualStyleBackColor = true;
+            btnManageReservation.Click += btnManageReservation_Click;
             // 
             // btnGuestRecord
             // 
@@ -108,6 +112,7 @@
             btnGuestRecord.TabIndex = 6;
             btnGuestRecord.Text = "Guest Records";
             btnGuestRecord.UseVisualStyleBackColor = true;
+            btnGuestRecord.Click += btnGuestRecord_Click;
             // 
             // Receptionist_Dashboard
             // 

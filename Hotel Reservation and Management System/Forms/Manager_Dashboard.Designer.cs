@@ -185,6 +185,7 @@
             btnSearchReservation.Text = "Search Reservation";
             btnSearchReservation.TextImageRelation = TextImageRelation.ImageAboveText;
             btnSearchReservation.UseVisualStyleBackColor = false;
+            btnSearchReservation.Click += btnSearchReservation_Click;
             // 
             // btnCheckOut
             // 
@@ -204,6 +205,7 @@
             btnCheckOut.Text = "Check-Out";
             btnCheckOut.TextImageRelation = TextImageRelation.ImageAboveText;
             btnCheckOut.UseVisualStyleBackColor = false;
+            btnCheckOut.Click += btnCheckOut_Click;
             // 
             // btnCheckIn
             // 
@@ -223,6 +225,7 @@
             btnCheckIn.Text = "Check-In";
             btnCheckIn.TextImageRelation = TextImageRelation.ImageAboveText;
             btnCheckIn.UseVisualStyleBackColor = false;
+            btnCheckIn.Click += btnCheckIn_Click;
             // 
             // btnNewReservation
             // 
@@ -242,6 +245,7 @@
             btnNewReservation.Text = "New Reservation";
             btnNewReservation.TextImageRelation = TextImageRelation.ImageAboveText;
             btnNewReservation.UseVisualStyleBackColor = false;
+            btnNewReservation.Click += btnNewReservation_Click;
             // 
             // btnGuestRecords
             // 
@@ -261,6 +265,7 @@
             btnGuestRecords.Text = "Guest Records";
             btnGuestRecords.TextImageRelation = TextImageRelation.ImageAboveText;
             btnGuestRecords.UseVisualStyleBackColor = false;
+            btnGuestRecords.Click += btnGuestRecords_Click;
             // 
             // btnBilling
             // 
@@ -280,6 +285,7 @@
             btnBilling.Text = "Billing";
             btnBilling.TextImageRelation = TextImageRelation.ImageAboveText;
             btnBilling.UseVisualStyleBackColor = false;
+            btnBilling.Click += btnBilling_Click;
             // 
             // Administration
             // 
@@ -328,6 +334,7 @@
             btnReports.Text = "Reports";
             btnReports.TextImageRelation = TextImageRelation.ImageAboveText;
             btnReports.UseVisualStyleBackColor = false;
+            btnReports.Click += btnReports_Click;
             // 
             // btnUserManagement
             // 

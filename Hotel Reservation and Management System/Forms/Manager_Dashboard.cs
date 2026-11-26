@@ -19,7 +19,50 @@ namespace Hotel_Reservation_and_Management_System
 
         private void btnRateManagement_Click(object sender, EventArgs e)
         {
+            var rateForm = new RateManagement();
+            rateForm.ShowDialog();
+        }
 
+        private void btnReports_Click(object sender, EventArgs e)
+        {
+            var reportsForm = new Reports();
+            reportsForm.ShowDialog();
+        }
+
+        private void btnNewReservation_Click(object sender, EventArgs e)
+        {
+            var newResForm = new NewReservation();
+            newResForm.ShowDialog();
+        }
+
+        private void btnCheckIn_Click(object sender, EventArgs e)
+        {
+            var checkInForm = new CheckIn();
+            checkInForm.ShowDialog();
+        }
+
+        private void btnCheckOut_Click(object sender, EventArgs e)
+        {
+            var checkOutForm = new CheckOut();
+            checkOutForm.ShowDialog();
+        }
+
+        private void btnSearchReservation_Click(object sender, EventArgs e)
+        {
+            var searchResForm = new SearchReservation();
+            searchResForm.ShowDialog();
+        }
+
+        private void btnGuestRecords_Click(object sender, EventArgs e)
+        {
+            var guestRecordsForm = new GuestRecords();
+            guestRecordsForm.ShowDialog();
+        }
+
+        private void btnBilling_Click(object sender, EventArgs e)
+        {
+            var billingForm = new Billing();
+            billingForm.ShowDialog();
         }
 
         private void Manager_Dashboard_Load(object sender, EventArgs e)
